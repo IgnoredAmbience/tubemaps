@@ -106,7 +106,7 @@ TubeMap.prototype.line = function(id) {
 TubeMap.prototype.makeConnection = function(c) {
   c.station1 = this.stationsById[c.station1];
   c.station2 = this.stationsById[c.station2];
-  c.time = parseInt(c.time, 10);
+  //c.time = parseInt(c.time, 10);
 
   c.station1.conns.push(c);
   c.station2.conns.push(c);
